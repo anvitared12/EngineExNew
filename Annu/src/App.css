@@ -1,0 +1,149 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* App container - 100% full screen center */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Form container - Responsive and centered */
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header section */
+.form-header {
+  background-color: #5527c5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.form-header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+/* Main form content */
+.form-content {
+  padding: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Regular input fields */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  color: #333;
+}
+
+/* Date input container with icon */
+.date-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.date-input-container input[type="date"] {
+  flex: 1;
+  padding-right: 40px; /* space for icon */
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 12px;
+  font-size: 18px;
+  color: #5527c5;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Focus effect for inputs */
+.form-group input:focus {
+  outline: none;
+  border-color: #5527c5;
+  box-shadow: 0 0 0 2px rgba(85, 39, 197, 0.2);
+}
+
+.required {
+  color: #e74c3c;
+  margin-left: 3px;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #5527c5;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #4718b6;
+}
+
+/* Submitted data preview */
+.date-preview {
+  margin-top: 30px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.date-preview h3 {
+  margin-bottom: 10px;
+  color: #5527c5;
+}
+
+.date-preview p {
+  margin: 4px 0;
+  font-size: 15px;
+}
