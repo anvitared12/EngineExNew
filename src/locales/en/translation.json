@@ -1,0 +1,35 @@
+{
+  "welcome": "Welcome to EngineEx",
+  "subtitle": "Your partner in eco-friendly engine upgrades",
+  "explore": "Explore >>",
+
+  "login": "Login",
+  "signup": "Signup",
+  "signout": "Sign Out",
+
+  "fame2": "FAME II Subsidy Available - Click to Learn More",
+  "retrofit": "Retrofitting Incentives Announced by MoRTH",
+  "statePolicy": "State EV Policy: 30% Incentive on Conversion",
+  "scrappage": "Scrappage Policy Rewards – Check Eligibility",
+
+  "whyUpgrade": "Why Upgrade Your Engine?",
+  "whyUpgradeDesc": "Old diesel engines emit 10–20x more pollutants than newer models. Upgrading reduces emissions, improves mileage, and qualifies you for subsidies.",
+
+  "howItHelps": "How EngineEx Helps",
+  "howItHelpsDesc": "We assess your vehicle, recommend upgrade paths, show relevant subsidies, and help you find nearby certified engine shops.",
+
+  "initiatives": "Government Initiatives",
+  "knowMore": "Know More",
+
+  "fame2Title": "FAME II",
+  "fame2Desc": "Incentives for electric vehicle retrofitting and new EVs under the national policy.",
+
+  "scrappageTitle": "Scrappage Policy",
+  "scrappageDesc": "2021 policy for removal of old, polluting vehicles with financial benefits.",
+
+  "pliTitle": "PLI Scheme",
+  "pliDesc": "Production-linked incentives for automotive and component manufacturers.",
+
+  "stateEVTitle": "State EV Schemes",
+  "stateEVDesc": "State-level policies supporting electric vehicle adoption and conversion."
+}
